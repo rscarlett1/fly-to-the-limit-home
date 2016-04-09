@@ -1,0 +1,148 @@
+
+
+body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+	width: 960px;
+}
+
+#intro{
+	text-decoration: none;	
+}
+
+#intro p{
+	
+	padding-left: 50px;
+	margin-top: 10px;
+	font-size: 16px;
+	font-style: bold;
+
+	/*contact field*/
+}
+
+.converter{
+	display: inline-block;
+}
+
+.converter:nth-of-type(2),
+.converter:nth-of-type(3),
+.converter:nth-of-type(4) {
+	margin: 0 0 0 20px;
+}
+.converter:nth-of-type(1) {
+	margin-left: 20px;
+}
+
+#converter-wrapper {
+	font-size: small;
+	float: right;
+	margin-right: 20px;
+}
+
+input {
+    width: 150px;
+    margin-bottom:5px;
+    line-height:18px;
+    padding:2px 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:1px solid #CCC;
+}
+
+
+nav{
+
+	padding:	2px 2px;
+	text-align: center;
+	color: #181d23;
+	width: 960px;	
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline;
+	
+}	
+	
+
+nav a {
+	color: grey;
+	text-decoration: none;
+	padding:	5px 5px;
+}
+
+nav a:hover{
+	background-color: #cc1f02;
+}
+
+main{
+	
+	position: relative;
+	margin:	0 auto;
+	padding: 10px 10px;
+}
+
+.menu-photo{
+	margin-left: 20px;
+	padding: 3px;
+	position: relative;
+	
+}
+
+#logo{
+	position: absolute;
+	top: 35%;
+	left: 45%;
+	
+}
+
+#book-now{
+	
+	max-width: 90px;
+	color: white;
+	padding: 1px;
+	position: relative;
+	left: 45%;
+
+
+
+
+	border-radius: 20px 20px 20px 20px;
+	-moz-border-radius: 20px 20px 20px 20px;
+	-webkit-border-radius: 20px 20px 20px 20px;
+	border: 2px solid #111100;
+	background: rgba(110,188,221,1);
+	background: -moz-linear-gradient(-45deg, rgba(110,188,221,1) 0%, rgba(23,141,232,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(110,188,221,1)), color-stop(100%, rgba(23,141,232,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(110,188,221,1) 0%, rgba(23,141,232,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(110,188,221,1) 0%, rgba(23,141,232,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(110,188,221,1) 0%, rgba(23,141,232,1) 100%);
+	background: linear-gradient(135deg, rgba(110,188,221,1) 0%, rgba(23,141,232,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ebcdd', endColorstr='#178de8', GradientType=1 );
+
+}
+
+main a{
+		text-decoration: none;
+}
+
+main p{
+	text-align: center;
+
+}
+
+#welcome{
+	background-color: blue;
+	width: 60%;
+	/*padding: 10px;*/	
+	
+}
+
+#welcome article{
+	padding: 0px 10px 10px 10px; 
+}
+
