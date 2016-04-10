@@ -81,6 +81,7 @@ nav a:hover{
 
 main{
 	
+	position: relative;
 	margin:	0 auto;
 	padding: 10px 10px;
 }
@@ -141,12 +142,8 @@ main p{
 	
 }
 
-#welcome{
-	width: 100;
-}
-
-article{
-	width: 60%;
+#welcome article{
+	margin: 10;
 	padding: 0px 10px 10px 10px; 
 }
 
