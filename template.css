@@ -1,0 +1,19 @@
+/*Get rid o default padding and margin*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+header, nav, article, section, footer{
+	display: block;
+}
+
+/*centering website*/
+
+.container{
+	width: 1000px;
+	margin: 0px auto;
+	border: solid, black;
+}
