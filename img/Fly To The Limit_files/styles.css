@@ -2,14 +2,8 @@
 
 body{
 	font-family: 'Raleway', sans-serif;
-
-}
-
-#intro,
-nav,
-main{
-	width:	960px;
 	margin: 0 auto;
+	width: 960px;
 }
 
 #intro{
@@ -87,6 +81,7 @@ nav a:hover{
 
 main{
 	
+	position: relative;
 	margin:	0 auto;
 	padding: 10px 10px;
 }
@@ -142,37 +137,13 @@ main p{
 
 #welcome{
 	background-color: blue;
-	width: 45%;
-	padding: 10px;
-	float: left;
+	width: 60%;
+	/*padding: 10px;*/	
 	
 }
 
-#aside{
-	background-color: yellow;
-	float: right;
-	width: 45%;
-
+#welcome article{
+	margin: 10;
+	padding: 0px 10px 10px 10px; 
 }
-
-#left{
-	background-color: pink;
-	width: 45%;
-	float: left;
-	clear: both;
-}
-
-#right{
-	background-color: green;
-	width: 45%;
-	float: right;
-}
-
-footer{
-	clear: both;
-	
-}
-
-
-
 
