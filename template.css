@@ -6,7 +6,7 @@
 	list-style-type: none;
 }
 
-header, nav, article, section, footer{
+header, nav, article, section, aside, footer{
 	display: block;
 }
 
@@ -15,5 +15,5 @@ header, nav, article, section, footer{
 .container{
 	width: 1000px;
 	margin: 0px auto;
-	border: solid, black;
+	
 }
